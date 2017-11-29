@@ -1,0 +1,93 @@
+body {
+  background: url(https://puu.sh/hpMrc/7fadc10014.pngg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+
+.icons {
+  background: #F5F5F5
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Nav */
+.navigation.solid{
+  background:rgba(255,255,255,0.30)
+}
+.navigation.solid li{
+  color:#222;
+}
+
+.navigation{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:80px;
+  z-index:999999;
+  transition:background 200ms ease-in-out;
+}
+.navigation ul{
+  padding:0px 30px;
+  margin:0;
+}
+.navigation div{
+  float:right;
+}
+.navigation:hover {
+  color: black;
+}
+
+.navigation li{
+  display: inline-block;
+  color: #EEE;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 13px 13px 30px 13px;
+  margin: 17px 0px 0px 0px;
+  transition:200ms all ease-in-out;
+}
+
+.splash{
+  font-family:'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-size:52px;
+  padding:100px 0px;
+  width:970px;
+  padding-top:160px;
+}
+
+.splash small{
+  display:block;
+  margin:20px 0px;
+  font-size:20px;
+}
+
+
+/* Custom Scroll Bar */
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #8b2dce;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
